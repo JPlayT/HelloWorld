@@ -1,0 +1,10 @@
+
+/*
+  Selección de Atributos por Fragmento de texto
+*/
+
+a[href^="mailto:"]{
+
+    color:chartreuse;
+    font-family: Verdana;
+}

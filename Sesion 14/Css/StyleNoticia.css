@@ -1,0 +1,23 @@
+#imagen{
+    float: right;
+    width: 400px;
+    height: 200px;
+}
+
+div{
+    background: green;
+    
+}
+
+#Referencia{
+    background: yellow;
+    float:right
+}
+
+#notice{
+    padding: 0.2cm;
+}
+
+p{
+    margin: 0px;
+}

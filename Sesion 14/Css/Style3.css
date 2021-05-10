@@ -1,0 +1,17 @@
+/*
+    Estilizando modelos de Cajas
+*/
+p,strong{
+    border: 1px solid;
+}
+
+/*
+    Manejo de Propiedades de Cajas
+*/
+
+#cajaPrueba{
+    margin:422px;
+    padding:20px;
+    background:darkcyan ;
+    width: 40px;
+}

@@ -1,0 +1,22 @@
+/*
+   Estiliza todas las etiquetas con class="externo"
+*/
+
+.externo{
+    color: red ;
+}
+
+.interno{
+    color:black
+}
+
+
+/*
+   Estiliza solo las etiquetas a<> con class="externo"
+*/
+
+a[class="externo"]{
+    color: aqua;
+}
+
+
