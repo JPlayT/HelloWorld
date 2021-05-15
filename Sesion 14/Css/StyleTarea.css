@@ -1,0 +1,47 @@
+#top{
+    text-align: center;
+    background:#212a34 ;
+}
+
+.referencia{
+font-family: fantasy;
+font-size: 18px;
+text-decoration: none;
+}
+
+#cabecera{
+    background:#212a34
+}
+
+.referencia{
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#tipo{
+    font-family: Verdana;
+    color: #00abf1;
+    font-size: 120%
+}
+
+.titulo{
+    color: whitesmoke;
+    font-family: Verdana;
+}
+
+.parrafo{
+    color: whitesmoke;
+    font-family: Helvetica;
+    font-size: medium;
+    text-align: justify;
+    
+}
+
+#laptopimg{
+    width: 550px;
+    height: 250px;
+    border-style: ridge;
+    float: right;
+    margin: 10px;
+}
