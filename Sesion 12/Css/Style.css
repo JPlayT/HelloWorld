@@ -7,8 +7,23 @@ h1{
     text-align: center;
 }
 
-.contenedor{
-    width: fit-content;
+.contPeliL{
+
+    border-style: outset;
+    width: 453px; 
+    height: 260px; 
+    float: left;
+    padding: 8px;
+   
+}
+
+.contPeliR{
+
+    border-style: outset;
+    width: 453px; 
+    height: 260px; 
+    float: right;
+    padding: 8px;
 }
 
 hr{
@@ -27,4 +42,24 @@ textarea{
 
 body{
     background: burlywood;
+}
+
+.poster{
+    height: 250px;
+    width: 190px;
+
+}
+
+
+.videocontenedor{
+    float: right; 
+    width: auto; 
+    height:248px;
+}
+
+.video{
+    width:250px; 
+    height:150px;
+    margin-top: 49px;
+    margin-left: 4px;
 }
