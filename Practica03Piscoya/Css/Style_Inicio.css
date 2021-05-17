@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+}
+
+.grid{
+    max-width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 13% 1fr 15%;
+    grid-template-rows: 25% 1fr 20%;
+    grid-template-areas: "my-nav my-header my-header" "my-section my-section my-aside" "my-footer my-footer my-footer";
+}
+
+header{
+    grid-area: my-header;
+    background-color: #00cccc;
+}
+
+nav{
+    grid-area: my-nav;
+    background-color: rgb(233, 248, 17);
+}
+
+aside{
+    grid-area: my-aside;
+    background-color: #33ffff;
+    padding: 20px;
+}
+
+section {
+    grid-area: my-section;
+    background-color: white;
+    padding: 0.2cm;
+
+}
+
+footer {
+    grid-area: my-footer;
+    background-color: #00cccc;
+}
+
+div{
+ 
+}
+
+.contenedorLink{
+    text-align: center;
+    height: 24%;
+    background-color: black;
+    border: solid white;
+    border-width: 1px;
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+    font-family: Verdana;
+    margin-top: 6%;
+    color: white;
+}
+
+#foto{
+    width: 183px;
+    height:184px;
+    border-style: outset;
+}
+
+#linkInicio{
+    float: right;
+    margin-top: 0.5cm;
+    margin-right: 0.8cm;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+#nombre{
+    float: right;
+    margin-top: 50px;
+    margin-left: 1cm;
+    font-size: 52px;
+    font-family: Verdana;
+}
+
+#sub{
+    font-size:23px;
+    margin-left: 17cm;
+    margin-top: 0.2cm;
+    font-family: Verdana;
+    font-weight: normal;
+}
+
+.contaside{
+    padding: 10px;
+    width: 160px;
+    background-color: #00cccc;
+}
+
+.contFooter{
+
+}
+
+#creditos{
+    display: block;
+    color: white;
+    
+}
+
+#noticiaimg{
+    width: 190px;
+    height: 150px;
+    margin-top: 15px;
+    
+}
