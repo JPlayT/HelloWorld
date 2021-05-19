@@ -91,6 +91,7 @@ div{
     font-family: Verdana;
     font-weight: bold;
     color: black;
+    display:block;
 }
 
 #nombre{
@@ -144,4 +145,25 @@ div{
 #fotofoot{
     width: 110px;
     height: 110px;
+}
+
+.textNoticia{
+    float: right; 
+    height: 150px; 
+    width:79%; 
+    margin-top: 0.7cm; 
+    margin-right: 0.7cm;
+}
+
+.titleNew{
+    width: fit-content; 
+    height: fit-content; 
+    text-align: center;
+}
+
+#contenedorCreditos{
+    height: 17.5%; 
+    background: black; 
+    text-align: center; 
+    padding-top: 11px;
 }
