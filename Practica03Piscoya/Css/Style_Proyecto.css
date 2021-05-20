@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    font-family: 'Verdana';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    text-align: justify;
+}
+
+.grid{
+    max-width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 13% 1fr 15%;
+    grid-template-rows: 25% 1fr 20%;
+    grid-template-areas: "my-nav my-header my-header" "my-section my-section my-aside" "my-footer my-footer my-footer";
+}
+
+header{
+    grid-area: my-header;
+    background-color: #00cccc;
+}
+
+nav{
+    grid-area: my-nav;
+    background-color: rgb(233, 248, 17);
+}
+
+aside{
+    grid-area: my-aside;
+    background-color: #33ffff;
+    padding: 20px;
+}
+
+/*--------------------------------------------------------*/
+
+section {
+    grid-area: my-section;
+    background-color: white;
+    padding: 0.4cm;
+
+}
+
+
+
+/*--------------------------------------------------------*/
+
+
+footer {
+    grid-area: my-footer;
+    background-color: #00cccc;
+}
+
+div{
+    
+}
+
+.contenedorLink{
+    text-align: center;
+    height: 24%;
+    background-color: black;
+    border: solid white;
+    border-width: 1px;
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+    font-family: Verdana;
+    margin-top: 6%;
+    color: white;
+}
+
+#foto{
+    width: 210px;
+    height:210px;
+    border-style: outset;
+}
+
+#linkInicio{
+    float: right;
+    margin-top: 0.5cm;
+    margin-right: 0.8cm;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+    display:block;
+}
+
+#nombre{
+    float: right;
+    margin-top: 50px;
+    margin-left: 1.0cm;
+    font-size: 50px;
+    font-family: Verdana;
+}
+
+#sub{
+    font-size:26px;
+    margin-left: 15.7cm;
+    margin-top: 0.2cm;
+    font-family: Verdana;
+    font-weight: normal;
+}
+
+.contaside{
+    padding: 10px;
+    width: 160px;
+    background-color: #00cccc;
+}
+
+.textSide{
+    font-size: 15px;
+}
+
+.contFooter{
+ margin: 13px;
+ 
+ height: max-content;
+ width: 98%;
+}
+
+#creditos{
+    display: block;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+#fotofoot{
+    width: 110px;
+    height: 110px;
+}
+
+
+#contenedorCreditos{
+    height: 17.5%; 
+    background: black; 
+    text-align: center; 
+    padding-top: 11px;
+}
