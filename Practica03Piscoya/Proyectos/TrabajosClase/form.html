@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscars 2018</title>
+    <link rel="stylesheet" href="/Sesion 12/Css/Style.css">
+    <link rel="shortcut icon" href="/Sesion 12/img/estatua.png" type="image/x-icon">
+</head>
+<body>
+
+    <h1> <img class="estatua"  src="/Sesion 12/img/estatua.png" alt="Estatua"> 
+        ENCUESTA DE CINE: NOMINADAS AL OSCAR 2018 <img class="estatua"  
+        src="/Sesion 12/img/estatua.png" alt="Estatua">
+    </h1> 
+<hr>
+<br>
+
+<div >
+    <div style="width: 500px; float: left;margin-bottom: 20px;">
+        <form method="POST">
+
+            <fieldset class="contenedor">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre</label> &nbsp;
+                <input type="text" name="nombre" id="nombre"><br>
+                <br>
+
+                <label for="Apellido">Apellido</label>&nbsp;
+                <input type="text" name="apellido" id="apellido"><br>
+                <br>
+
+                <label for="DNI" style="margin-left: 27px;">DNI</label>&nbsp;
+                <input type="text" name="dni" id="dni" maxlength="9"><br>
+                <br>
+
+                <label for="Edad" style="margin-left: 22px;">Edad</label>
+                &nbsp;<input type="text" name="edad" id="edad" maxlength="2" size="2"><br>
+                <br>
+
+                <label for="sexo" style="margin-left: 23px;">Sexo</label>&nbsp;
+                <select name="sexo" id="sexo">
+                    <option value="1">Masculino</option>
+                    <option value="2">Femenino</option>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <fieldset class="contenedor">
+                <legend>Mejor Pelicula</legend>
+                
+                <input type="radio" name="Pelicula" id="peli1">Boku no Hero Academia<br>
+                <br>
+                <input type="radio" name="Pelicula" id="peli2">Deadpool<br>
+                <br>
+                <input type="radio" name="Pelicula" id="peli3">Venom 2<br>
+                <br>
+                <input type="radio" name="Pelicula" id="peli4">Mi Vecino Totoro<br>
+
+            </fieldset>
+
+            <br>
+            
+            <fieldset class="contenedor">
+                <legend>Selecciona las películas que hayas visto</legend>
+                <input type="checkbox" name="Pelicula" id="check1">Boku no Hero Academia<br>
+                <input type="checkbox" name="Pelicula" id="check2">Army of the Dead<br>
+                <input type="checkbox" name="Pelicula" id="check3">Deadpool<br>
+                <input type="checkbox" name="Pelicula" id="check4">Venom 2<br>
+                <input type="checkbox" name="Pelicula" id="check5">Mi Vecino Totoro<br>
+                <input type="checkbox" name="Pelicula" id="check6">Lady Bird<br>
+            </fieldset>
+
+            <br>
+            <fieldset class="contenedor">
+                <legend>Argumento de la Pelicula que más te gusta</legend>
+                <textarea name="AreaTexto" id="area1" cols="60" rows="6" res></textarea>
+
+            </fieldset>
+            <br>
+            <hr style="border-style: dotted;">
+            <br>
+
+            <div style="text-align: center;">
+                <input class="boton" type="reset" value="Borrar Formulario"style="font-family: fantasy;"> &nbsp;
+                <input class="boton" type="submit" value="Enviar Datos" style="font-family: fantasy;">
+            </div>
+        </form>
+    </div>
+
+    <div style=" float: right; width: 950px; height: auto; border-left: ridge;">
+
+
+
+        <div>
+
+            <div class="contPeliL">
+                <img class="poster" src="/Sesion 12/img/7BNEDTSDTVBY7ILMVV3SISWE7E.jpg" alt="Army of the Dead">
+
+                <div class="videocontenedor">
+                    <iframe class="video" src="https://www.youtube.com/embed/tI1JGPhYBS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+            <div class="contPeliR">
+
+                <img class="poster" src="/Sesion 12/img/A10mcxetgHL._AC_SL1500_.jpg" alt="Mi Vecino Totoro">
+
+                <div class="videocontenedor">
+                    <iframe class="video" src="https://www.youtube.com/embed/BjeBG8Xrci8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+            <div class="contPeliL">
+
+                <img class="poster" src="/Sesion 12/img/81AuyLA3SLL._AC_SY879_.jpg" alt="Lady Bird">
+
+                <div class="videocontenedor">
+                    <iframe class="video" src="https://www.youtube.com/embed/cNi_HC839Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+            <div class="contPeliR">
+
+                <img class="poster" src="/Sesion 12/img/venom-2-poster-fotogramas-1620664736.jpeg" alt="Venom 2">
+
+                <div class="videocontenedor">
+                    <iframe class="video" src="https://www.youtube.com/embed/9goIsB2yel0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div>
+            <div class="contPeliL">
+
+                <img class="poster" src="https://images-na.ssl-images-amazon.com/images/I/81mtvwIFuSL._AC_SY679_.jpg" alt="Deadpool">
+
+                <div class="videocontenedor">
+                    <iframe class="video" src="https://www.youtube.com/embed/0JnRdfiUMa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+            <div class="contPeliR">
+
+                <img class="poster" src="/Sesion 12/img/nM8PqnfY3baOmJEamKBBHrQGSD9TRZ8NmmpjdelogW8.jpg" alt="Boku no Hero Academia">
+
+                <div class="videocontenedor">
+                    <iframe class="video" src="https://www.youtube.com/embed/c58vwVGqEaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

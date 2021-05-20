@@ -48,6 +48,34 @@ section {
 
 
 
+.contPr{
+
+    width: 33%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    
+}
+
+.miniatura{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 65%;
+}
+
+.ver{
+    margin-top: 1px;
+    height: 0.8cm;
+    width: 4cm;
+    font-size: 0.5cm;
+    border-radius: 14px;
+    color: white;
+    background-color: #008cff;
+
+}
+
 /*--------------------------------------------------------*/
 
 
@@ -78,7 +106,7 @@ div{
 
 #foto{
     width: 210px;
-    height:210px;
+    height: 212px;
     border-style: outset;
 }
 

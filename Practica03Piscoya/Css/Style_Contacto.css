@@ -42,7 +42,7 @@ aside{
 section {
     grid-area: my-section;
     background-color: white;
-    padding: 0.5cm;
+    
     padding-left: 1.5cm;
 }
 
@@ -51,16 +51,30 @@ section {
     padding: 15px;
 }
 
+
+.tag{
+    font-size: 15px;
+}
+
+.htext{
+    height:0.8cm;
+    width: 554px;
+}
+
+.btn{
+    border-radius: 11px;
+    width: 5cm;
+    height: 1.1cm;
+    font-size:20px;
+    background-color: #008cff;
+    color: white;
+}
 /*--------------------------------------------------------*/
 
 
 footer {
     grid-area: my-footer;
     background-color: #00cccc;
-}
-
-div{
-    
 }
 
 .contenedorLink{
