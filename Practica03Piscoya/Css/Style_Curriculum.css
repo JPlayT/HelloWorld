@@ -156,3 +156,52 @@ div{
     text-align: center; 
     padding-top: 11px;
 }
+
+#x1{
+    margin-left: 1.3cm; margin-right: 0.6cm; font-size: 15px;
+}
+
+#xtable{
+    margin-bottom: 0.3cm;
+}
+
+
+/*-------------------------------------------------*/
+
+#colorNav{
+    background: #d4aef9;
+}
+
+#tnav{
+    color: black; 
+    font-weight: bold;
+}
+
+#diva{
+    height: 65%;
+}
+
+#divb{
+    height: 100%; 
+    width: 90%;  
+    float: right;
+}
+
+.htextf{
+    margin-bottom: 7px; 
+    font-size: 17px;
+}
+
+.aux1{
+    float: right; 
+    margin-right: 3cm;
+}
+
+.light{
+    width: fit-content;
+}
+
+#divc{
+    float: right; 
+    margin-right: 8cm;
+}

@@ -179,3 +179,62 @@ div{
     text-align: center; 
     padding-top: 11px;
 }
+
+.light{
+    width: fit-content;
+}
+
+.smurf{
+    height: fit-content;
+}
+
+#separator{
+    margin-top: 5px;
+}
+
+#divz{
+    width: 198px; height: 85%; float: right; margin-top: 0.3cm;padding-left: 0.6cm;
+}
+
+#btn1{
+    margin-bottom: 12px; margin-top: 15px;
+}
+
+#btn2{
+    margin-top: 8px;
+}
+
+#divx{
+    width: 360px; height: 85%; margin-top: 0.3cm;
+}
+
+
+/*-------------------------------------------------*/
+#diva{
+    height: 65%;
+}
+
+#divb{
+    height: 100%; 
+    width: 90%;  
+    float: right;
+}
+
+.htextf{
+    margin-bottom: 7px; 
+    font-size: 17px;
+}
+
+.aux1{
+    float: right; 
+    margin-right: 3cm;
+}
+
+.light{
+    width: fit-content;
+}
+
+#divc{
+    float: right; 
+    margin-right: 8cm;
+}

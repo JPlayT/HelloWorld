@@ -175,3 +175,56 @@ div{
     text-align: center; 
     padding-top: 11px;
 }
+
+
+.x1{
+    height: 5.9cm;
+}
+
+#x2{
+    margin-top: 6px;
+}
+
+#x3{
+    width: 75%; height: 100%; float: right; margin-right: 3.3cm;
+}
+
+/*-------------------------------------------------*/
+
+#colorNav{
+    background: #d4aef9;
+}
+
+#tnav{
+    color: black; 
+    font-weight: bold;
+}
+
+#diva{
+    height: 65%;
+}
+
+#divb{
+    height: 100%; 
+    width: 90%;  
+    float: right;
+}
+
+.htextf{
+    margin-bottom: 7px; 
+    font-size: 17px;
+}
+
+.aux1{
+    float: right; 
+    margin-right: 3cm;
+}
+
+.light{
+    width: fit-content;
+}
+
+#divc{
+    float: right; 
+    margin-right: 8cm;
+}

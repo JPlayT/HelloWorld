@@ -69,6 +69,10 @@ section {
     background-color: #008cff;
     color: white;
 }
+
+#area{
+    float: right;resize: none; margin-right: 0.3cm;
+}
 /*--------------------------------------------------------*/
 
 
@@ -163,4 +167,80 @@ footer {
     background: black; 
     text-align: center; 
     padding-top: 11px;
+}
+
+
+#mapa{
+    border: 4px solid; margin-top: 15px;
+}
+
+#x1{
+    width: 370px; float: right;
+}
+
+#x2{
+    width: 63%;
+}
+
+#x3{
+    height: 73%; margin-top: 15px; background:#99ffff; padding: 1cm;
+}
+
+#x4{
+    margin-left: 35px;
+}
+
+#x5{
+    margin-left: 55px;
+}
+
+#x6{
+    margin-left: 47px;
+}
+
+#x7{
+    margin-left: 2.8cm;
+}
+
+#botonx{
+    margin-left: 15px;
+}
+/*-------------------------------------------------*/
+
+#colorNav{
+    background: #d4aef9;
+}
+
+#tnav{
+    color: black; 
+    font-weight: bold;
+}
+
+#diva{
+    height: 65%;
+}
+
+#divb{
+    height: 100%; 
+    width: 90%;  
+    float: right;
+}
+
+.htextf{
+    margin-bottom: 7px; 
+    font-size: 17px;
+}
+
+.aux1{
+    float: right; 
+    margin-right: 3cm;
+}
+
+.light{
+    width: fit-content;
+}
+
+#divc{
+    float: right; 
+    margin-right: 8cm;
 }
