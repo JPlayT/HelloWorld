@@ -1,0 +1,65 @@
+.estatua{
+    width: 40px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+.contPeliL{
+
+    border-style: outset;
+    width: 453px; 
+    height: 260px; 
+    float: left;
+    padding: 8px;
+   
+}
+
+.contPeliR{
+
+    border-style: outset;
+    width: 453px; 
+    height: 260px; 
+    float: right;
+    padding: 8px;
+}
+
+hr{
+    border-style: solid;
+}
+
+textarea{
+    resize: none;
+}
+
+.boton{
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+}
+
+body{
+    background: burlywood;
+}
+
+.poster{
+    height: 250px;
+    width: 190px;
+
+}
+
+
+.videocontenedor{
+    float: right; 
+    width: auto; 
+    height:248px;
+}
+
+.video{
+    width:250px; 
+    height:150px;
+    margin-top: 49px;
+    margin-left: 4px;
+}
