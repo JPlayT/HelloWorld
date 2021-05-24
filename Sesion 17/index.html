@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+</head>
+
+<body style="font-family: 'Trebuchet MS';">
+    <h1>EJEMPLO ELSE IF</h1>
+    <br>
+
+    <h2 id="resultado" style="color: red;"></h2>
+    <p id="parrafo"></p>
+
+    <script>
+        var x = 3;
+
+        if (x == 0) {
+
+            document.getElementById("resultado").innerHTML = "Resultado de IF → x=0";
+            document.getElementById("parrafo").innerHTML = "Funciona el IF";
+
+        }
+        else if (x == 1) {
+
+            document.getElementById("resultado").innerHTML = "Resultado de Primer Else IF → x=1";
+            document.getElementById("parrafo").innerHTML = "Funciona el Primer Else IF";
+
+        } else if (x == 2) {
+
+            document.getElementById("resultado").innerHTML = "Resultado de Segundo Else IF → x=2";
+            document.getElementById("parrafo").innerHTML = "Funciona el Segundo Else IF";
+
+        }else{
+
+            document.getElementById("resultado").innerHTML = "Resultado del Else → x!=[0,1,2]";
+            document.getElementById("parrafo").innerHTML = "Funciona el Segundo Else IF";
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
