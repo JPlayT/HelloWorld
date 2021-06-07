@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda 3</title>
+    <link rel="stylesheet" href="bolsa.css">
+</head>
+<body onload="actualizarDatos()">
+    <div id="contenedor">
+        <header>
+            <h3>Bolsa de Compras</h3>
+            <hr>
+        </header>
+
+        <form>
+            <img src="67723f2e9e8ed6b6a1818e2155793132-bolsas-de-compras-de-invierno-planas-by-vexels.png" alt="ImgBolsa">
+            <span>Producto:</span>
+            <input type="text" placeholder="Nombre" id="nombre"> <br><br>
+            <span>Categoría:</span>
+           
+            <select name="Categoría" id="categoria">
+                <option value="Comestibles">Comestibles</option>
+                <option value="Prendas">Prendas</option>
+                <option value="Misceláneo">Misceláneo</option>
+            </select><br><br>
+
+
+            <span>Precio:</span>
+            <input type="number" placeholder="Precio" id="precio">
+        </form>
+        <hr>
+        <div id="contBotones">
+            <button type="button" onclick="guardarDato()">Guardar Producto</button>
+            <button type="button" onclick="recuperarDato()">Revisar Producto</button>
+            <button type="button" onclick="eliminarDato()">Quitar</button>
+            <button type="button" onclick="eliminarTodo()">Quitar Todo</button>
+        </div>
+        <hr>
+        <span class="titu" id="name">Producto</span> <span Class=titu>Categoría</span><span Class=titu >Precio</span><br>
+        <ul id="contactos"></ul>
+    </div>
+    <script type="text/javascript" src="bolsa.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+</body>
+</html>

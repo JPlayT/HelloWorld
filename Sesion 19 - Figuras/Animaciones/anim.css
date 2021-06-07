@@ -1,0 +1,52 @@
+body{
+    overflow: hidden;
+}
+
+.animado{
+    width: 100px;
+    transition: all 1s;
+    clip-path: polygon(0 0, 100% 0 ,100% 100%, 0 100%);
+}
+
+.animado:hover{
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+p{
+    /*animation-duration: 3s;
+    animation-name: animkey;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+    animation: 4s infinite alternate animkey;
+}
+
+@keyframes animkey {
+    /*from{
+
+        margin-left: 100%;
+        width: 300%;
+
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+        
+    }*/
+    0%{
+        margin-left: 100%;
+        width: 300%;
+    }
+    30%{
+        background-color: cadetblue;
+    }
+    60%{
+        background-color: cyan;
+    }
+    90%{
+        background-color: dodgerblue;
+    }
+    100%{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
