@@ -1,0 +1,7 @@
+#contenedor{
+    background-color: cadetblue;
+}
+
+div[class^='col']{
+    border: black solid;
+}

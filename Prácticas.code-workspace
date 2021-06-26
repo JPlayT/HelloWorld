@@ -5,9 +5,15 @@
 		},
 		{
 			"path": "..\\Test"
+		},
+		{
+			"path": "..\\Examen"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Desktop\\PISCOYA_TIRADO_JOSÉ_PROYECTOS DE CLASE"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "01_TrabajoDiseño"
+		"liveServer.settings.multiRootWorkspaceName": "PISCOYA_TIRADO_JOSÉ_PROYECTOS DE CLASE"
 	}
 }

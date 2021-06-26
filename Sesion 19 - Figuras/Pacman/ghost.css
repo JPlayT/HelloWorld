@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+
+
+.logo{
+    height: 100px;
+    width: 400px;
+    float: right;
+    margin-right: 7.5cm;
+    margin-top: 1cm;
+    
+}
+
+.reproductor{
+    margin-top: 5cm;
+    margin-left: 5.5cm;
+    position: absolute;
+}
+
+div{
+    background-color: dodgerblue;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    margin: 20px;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animacion;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    10%{
+        left: 12.3rem;
+        top: 0rem;
+        color: dodgerblue;
+    }
+    20%{
+        top: 6.2rem;
+        left: 12.3rem;
+        color: white;
+    }
+    30%{
+        top: 6.2rem;
+        left: 21.5rem;
+        color: dodgerblue;
+    }
+    50%{
+        top: 29rem;
+        left: 21.5rem;
+        color: white;
+    }
+    60%{
+        top: 29rem;
+        left: 6.3rem;
+    }
+    80%{
+        top: 6.2rem;
+        left: 6.3rem;
+        color: white;
+    }
+    90%{
+        top: 6.2rem;
+        left: 0;
+        color: dodgerblue;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        color: white;
+    }
+    
+}
